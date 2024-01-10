@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <title>Basvuru Formu</title>
+
+  <body class="bg-danger">
+    <form
+      action="https://formsubmit.co/selcuk_selcuk327@hotmail.com"
+      method="POST"
+    >
+      <div class="form-1">
+        <div class="color">
+          <div
+            class="row justify-content-center align-items-center text-warning"
+          >
+            <div class="col text-white">
+              <div class="div text-center mb-5">
+                <h1 class="text-warning">Sign Up</h1>
+              </div>
+            </div>
+            <div class="col-12 text-center">
+              <label class="ps-4" for="name">İsim</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <br />
+            <div>
+              <div class="col-12 text-center">
+                <label for="last_name">Soyisim</label>
+                <input type="text" name="last_name" id="last_name" required />
+              </div>
+            </div>
+            <br />
+            <div>
+              <div class="col-12 text-center pe-5">
+                <label for="Email">E-posta Adresi</label>
+                <input type="email" name="email" id="Email" required />
+              </div>
+            </div>
+            <br />
+            <div>
+              <div class="col-12 text-center age-age">
+                <label for="Age">Yaşınız</label>
+                <input type="number" name="Age" id="Age" min="15" max="70" />
+              </div>
+            </div>
+            <br />
+            <div>
+              <div class="col-12 text-center pe-4">
+                <textarea
+                  name="Message"
+                  placeholder="Mesajınız"
+                  id="Message"
+                  cols="10"
+                  rows="4"
+                ></textarea>
+              </div>
+            </div>
+            <br />
+            <div>
+              <div class="col-12 text-center like-like">
+                <label for="Like">Sitemizi beğendiniz mi?</label>
+                <input type="range" name="Like" id="Like" />
+              </div>
+            </div>
+            <br />
+            <div class="col-12 text-center">
+              <button class="btn btn-danger" type="submit">Send</button>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+    </form>
+    <br />
+    <br />
+  </body>
+</html>
